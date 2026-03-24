@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('hw_src/space.jpeg')
+img = cv2.imread('ferret.jpeg')
 
 # 경계는 유지하면서 내부 색을 단색에 가깝게 뭉갬
 color = img.copy()
